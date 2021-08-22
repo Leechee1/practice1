@@ -1,8 +1,7 @@
- #define _CRT_SECURE_NO_WARNINGS
-
+ 
 #define _CRT_SECURE_NO_WARNINGS
 
-#include <stdio.h>
+
 
 int main()
 {
@@ -13,13 +12,12 @@ int main()
 	while (line <= 10000)
 	{
 
-		printf("ÇÃÒ»ÐÐ´úÂë%d\n", line);
+		printf("ï¿½ï¿½Ò»ï¿½Ð´ï¿½ï¿½ï¿½%d\n", line);
 
 		line++;
 
 	}
 
-	if (line > 10000)
 		printf("GOOD");
 
 
